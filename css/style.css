@@ -1,0 +1,37 @@
+body{
+
+background-color:bisque;
+margin: 2%;
+border-radius: 25px;
+
+}
+header{
+    text-align: center;
+  
+    color: #23f;
+  
+    background-color:#f7a440 ;
+    height: 70px;
+    font-weight: bold;
+    font-size:x-large;
+  }
+  footer{
+    text-align: center;
+  
+    color: #23f;
+  
+    background-color:#f7a440 ;
+
+  }
+  h5{
+
+    font-weight:bold ;
+  }
+  ul{
+list-style-type: disc;
+
+  }
+  ol{
+      list-style-type:decimal;
+
+  }
