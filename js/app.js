@@ -136,69 +136,70 @@
 
 
 
-                 //Q2 lab04......
-function question6(){              
-  let count=0;
-while(count<4){
-let userNum=prompt('GUESS how many book did I read,please choose a number between 10 and 30');
-if(userNum && (userNum>9 && userNum<31)){
-           if (userNum == 15){ 
-               alert('congrats,correct answer');
-               score++;
-            break;}
-       else if(userNum <15){
-            alert('your guess is low');
-            count++;}
-             else if(userNum > 15){
-            alert('your guess is high');
-            count++;}
-            if(count==4){
-            alert('you tried 4 times,the correct answer is 15');}} 
-            else {
-                    alert('Invalid ,please choose a number between 10 and 30');
-            }
-}  
+//                  //Q2 lab04......
+// function question6(){              
+//   let count=0;
+// while(count<4){
+// let userNum=prompt('GUESS how many book did I read,please choose a number between 10 and 30');
+// if(userNum && (userNum>9 && userNum<31)){
+//            if (userNum == 15){ 
+//                alert('congrats,correct answer');
+//                score++;
+//             break;}
+//        else if(userNum <15){
+//             alert('your guess is low');
+//             count++;}
+//              else if(userNum > 15){
+//             alert('your guess is high');
+//             count++;}
+//             if(count==4){
+//             alert('you tried 4 times,the correct answer is 15');}} 
+//             else {
+//                     alert('Invalid ,please choose a number between 10 and 30');
+//             }
+// }  
                  
-}
-question6();
+// }
+// question6();
 
 //                //Q3.............
-
-//            let counter=0;
-//             let country=['thailand','peru','greece','italy'];
-//             let countryVisit ='';
-//             for(let i=6; i>0; i--){
-//                 if(counter>=1){
-//                     break;
-//                 }
-//                 countryVisit=prompt('which country do you think I might visit next year? hint:choose from the top 10 countries bellow');
-//                 countryVisit=countryVisit.toLowerCase();
-//                 for ( let j = 0 ; j< country.length; j++){
+        function question7(){   
+           let counter=0;
+            let country=['thailand','peru','greece','italy'];
+            let countryVisit ='';
+            for(let i=6; i>0; i--){
+                if(counter>=1){
+                    break;
+                }
+                countryVisit=prompt('which country do you think I might visit next year? hint:choose from the top 10 countries bellow');
+                countryVisit=countryVisit.toLowerCase();
+                for ( let j = 0 ; j< country.length; j++){
                
-//                 if(country[j]==countryVisit){
-//                     console.log('true');
-//                     score++;
-//                     counter++;
-//                     alert('congrats,correct answer');
+                if(country[j]==countryVisit){
+                    console.log('true');
+                    score++;
+                    counter++;
+                    alert('congrats,correct answer');
                     
-//                     console.log(counter);
-//                     break;
-//                 }  
+                    console.log(counter);
+                    break;
+                }  
 
-//             } 
-//              if(i==1){
-//                  alert('you tried 6 times');
-//                 }
-//                 if(i!=1 && counter==0){  alert('try again you stil have '+(i-1) + ' chances');}
-//         }
-//          document.write('<br>I might visit those countries next year: ');
+            } 
+             if(i==1){
+                 alert('you tried 6 times');
+                }
+                if(i!=1 && counter==0){  alert('try again you stil have '+(i-1) + ' chances');}
+        }
+         document.write('<br>I might visit those countries next year: ');
 
-//         for(let i=0;i<country.length;i++){
-//             document.write(country[i]+', ');} 
-
+        for(let i=0;i<country.length;i++){
+            document.write(country[i]+', ');} 
+        }
+            question7();
            
-//                //Q4..........
-//             document.write('<br> YOU ANSWERED '+ score +' CORRECT ANSWERS OUT OF 7 <br>'); 
+               //Q4..........
+            document.write('<br> YOU ANSWERED '+ score +' CORRECT ANSWERS OUT OF 7 <br>'); 
           
           
           
