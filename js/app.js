@@ -77,53 +77,55 @@
 // }
 // question3();
 
-//q4.........
-function question4(){
-let favouriteColor=prompt('Is my favourite color red?');
-console.log(favouriteColor);
-while (!favouriteColor) {
-    favouriteColor=prompt('please answer the question');
-  }
-
- favouriteColor=favouriteColor.toLowerCase();
-
-
- if (favouriteColor=='yes' || favouriteColor=='y') {
-//     console.log("you\'re right, red is my favourite color");
-alert("you're right, red is my favourite color");
-score++;
- }else if (favouriteColor=='no' || favouriteColor=='n'){
-    
-//     console.log('wrong answer');
-alert('wrong answer');} 
-else {
-    alert('please only answer yes/y or no/n');
-}
-
-}
-question4();
-
-// //q5.........
-// let age=prompt('Do you think I\'m 22 years old?');
-// console.log(age);
-// while (!age) {
-//     age=prompt('please answer the question');
+// //q4.........
+// function question4(){
+// let favouriteColor=prompt('Is my favourite color red?');
+// console.log(favouriteColor);
+// while (!favouriteColor) {
+//     favouriteColor=prompt('please answer the question');
 //   }
 
-// age=age.toLowerCase();
+//  favouriteColor=favouriteColor.toLowerCase();
 
-//  if (age=='yes' || age=='y' ) {
-// //     console.log("I\'m 22 years old");
-// alert("you're right, I\'m 22 years old");
+
+//  if (favouriteColor=='yes' || favouriteColor=='y') {
+// //     console.log("you\'re right, red is my favourite color");
+// alert("you're right, red is my favourite color");
 // score++;
-//  }else if  (age=='no' || age=='n' ){
+//  }else if (favouriteColor=='no' || favouriteColor=='n'){
     
 // //     console.log('wrong answer');
-// alert('wrong answer');}
+// alert('wrong answer');} 
 // else {
 //     alert('please only answer yes/y or no/n');
 // }
 
+// }
+// question4();
+
+//q5.........
+function question5(){
+let age=prompt('Do you think I\'m 22 years old?');
+console.log(age);
+while (!age) {
+    age=prompt('please answer the question');
+  }
+
+age=age.toLowerCase();
+
+ if (age=='yes' || age=='y' ) {
+//     console.log("I\'m 22 years old");
+alert("you're right, I\'m 22 years old");
+score++;
+ }else if  (age=='no' || age=='n' ){
+    
+//     console.log('wrong answer');
+alert('wrong answer');}
+else {
+    alert('please only answer yes/y or no/n');
+}
+}
+question5()
 
 // //............
 // let Username=prompt('What\s your name ');
