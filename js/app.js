@@ -1,5 +1,5 @@
 'use strict';
-// let score=0;
+let score=0;
 
 // //q1..........
 // function question1(){
@@ -195,13 +195,13 @@
 
         for(let i=0;i<country.length;i++){
             document.write(country[i]+', ');} 
-        }
-            question7();
+        
+          
            
                //Q4..........
             document.write('<br> YOU ANSWERED '+ score +' CORRECT ANSWERS OUT OF 7 <br>'); 
-          
-          
+        }
+            question7();
           
           
           
