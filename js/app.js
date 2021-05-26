@@ -2,7 +2,7 @@
 let score=0;
 
 //q1..........
-
+function question1(){
  let favouriteMovie=prompt('Is my favourite movie harry potter?');
 console.log(favouriteMovie);
 
@@ -23,7 +23,8 @@ else {
     alert('please only answer yes/y or no/n');
 }
 
-
+}
+question1();
 
 //q2............
  let read=prompt('Do you think I read harry potter\'s book?');
