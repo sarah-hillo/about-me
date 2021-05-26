@@ -104,28 +104,28 @@
 // question4();
 
 //q5.........
-function question5(){
-let age=prompt('Do you think I\'m 22 years old?');
-console.log(age);
-while (!age) {
-    age=prompt('please answer the question');
-  }
+// function question5(){
+// let age=prompt('Do you think I\'m 22 years old?');
+// console.log(age);
+// while (!age) {
+//     age=prompt('please answer the question');
+//   }
 
-age=age.toLowerCase();
+// age=age.toLowerCase();
 
- if (age=='yes' || age=='y' ) {
-//     console.log("I\'m 22 years old");
-alert("you're right, I\'m 22 years old");
-score++;
- }else if  (age=='no' || age=='n' ){
+//  if (age=='yes' || age=='y' ) {
+// //     console.log("I\'m 22 years old");
+// alert("you're right, I\'m 22 years old");
+// score++;
+//  }else if  (age=='no' || age=='n' ){
     
-//     console.log('wrong answer');
-alert('wrong answer');}
-else {
-    alert('please only answer yes/y or no/n');
-}
-}
-question5()
+// //     console.log('wrong answer');
+// alert('wrong answer');}
+// else {
+//     alert('please only answer yes/y or no/n');
+// }
+// }
+// question5();
 
 // //............
 // let Username=prompt('What\s your name ');
@@ -136,29 +136,31 @@ question5()
 
 
 
-//                  //Q2 lab04......
-//   let count=0;
-// while(count<4){
-// let userNum=prompt('GUESS how many book did I read,please choose a number between 10 and 30');
-// if(userNum && (userNum>9 && userNum<31)){
-//            if (userNum == 15){ 
-//                alert('congrats,correct answer');
-//                score++;
-//             break;}
-//        else if(userNum <15){
-//             alert('your guess is low');
-//             count++;}
-//              else if(userNum > 15){
-//             alert('your guess is high');
-//             count++;}
-//             if(count==4){
-//             alert('you tried 4 times,the correct answer is 15');}} 
-//             else {
-//                     alert('Invalid ,please choose a number between 10 and 30');
-//             }
-// }  
+                 //Q2 lab04......
+function question6(){              
+  let count=0;
+while(count<4){
+let userNum=prompt('GUESS how many book did I read,please choose a number between 10 and 30');
+if(userNum && (userNum>9 && userNum<31)){
+           if (userNum == 15){ 
+               alert('congrats,correct answer');
+               score++;
+            break;}
+       else if(userNum <15){
+            alert('your guess is low');
+            count++;}
+             else if(userNum > 15){
+            alert('your guess is high');
+            count++;}
+            if(count==4){
+            alert('you tried 4 times,the correct answer is 15');}} 
+            else {
+                    alert('Invalid ,please choose a number between 10 and 30');
+            }
+}  
                  
-
+}
+question6();
 
 //                //Q3.............
 
