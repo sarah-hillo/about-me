@@ -27,6 +27,7 @@ else {
 question1();
 
 //q2............
+function question2(){
  let read=prompt('Do you think I read harry potter\'s book?');
  console.log(read);
  while (!read) {
@@ -48,8 +49,9 @@ else {
     alert('please only answer yes/y or no/n');
 }
 
+}
 
-
+question2();
 //q3.........
 let readL=prompt('Do you think I love reading in general? ');
 console.log(readL);
