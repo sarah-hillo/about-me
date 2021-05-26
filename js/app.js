@@ -53,6 +53,8 @@ else {
 
 question2();
 //q3.........
+
+function question3(){
 let readL=prompt('Do you think I love reading in general? ');
 console.log(readL);
 while (!readL) {
@@ -72,7 +74,8 @@ alert('wrong answer');}
 else {
     alert('please only answer yes/y or no/n');
 }
-
+}
+question3();
 
 //q4.........
 let favouriteColor=prompt('Is my favourite color red?');
