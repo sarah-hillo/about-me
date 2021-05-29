@@ -1,7 +1,6 @@
 'use strict';
 let score=0;
 
-//q1..........
 function question1(){
  let favouriteMovie=prompt('Is my favourite movie harry potter?');
 console.log(favouriteMovie);
@@ -12,12 +11,11 @@ while (!favouriteMovie) {
 favouriteMovie=favouriteMovie.toLowerCase();
 
  if (favouriteMovie==='yes' || favouriteMovie==='y') {
-//     console.log("you\'re right, harry potter is my favourite color");
+
 alert("you're right, harry potter is my favourite movie");
 score++;
  }else if (favouriteMovie==='no' || favouriteMovie==='n'){
     
-//     console.log('wrong answer');
 alert('wrong answer');}
 else {
     alert('please only answer yes/y or no/n');
@@ -26,7 +24,7 @@ else {
 }
 question1();
 
-//q2............
+
 function question2(){
  let read=prompt('Do you think I read harry potter\'s book?');
  console.log(read);
@@ -37,11 +35,11 @@ function question2(){
 read=read.toLowerCase();
 
  if (read=='yes' || read=='y') {
-//     console.log('wrong answer, not yet');
+
 alert('wrong answer, not yet');
  }else if (read=='no' || read=='n')  {
     
-//     console.log(('you\'re right, I didnt read harry potter yet');
+
 alert('you\'re right, I didnt read harry potter yet');
 score++;
 }
@@ -52,7 +50,7 @@ else {
 }
 
 question2();
-//q3.........
+
 
 function question3(){
 let readL=prompt('Do you think I love reading in general? ');
@@ -64,12 +62,10 @@ while (!readL) {
 readL=readL.toLowerCase();
 
  if (readL=='yes'|| readL=='y') {
-//     console.log('you\'re right, I love reading');
 alert('you\'re right, I love reading');
 score++;
  }else if(readL=='no'|| readL=='n'){
     
-//     console.log(('wrong answer');
 alert('wrong answer');}
 else {
     alert('please only answer yes/y or no/n');
@@ -77,7 +73,7 @@ else {
 }
 question3();
 
-//q4.........
+
 function question4(){
 let favouriteColor=prompt('Is my favourite color red?');
 console.log(favouriteColor);
@@ -89,12 +85,10 @@ while (!favouriteColor) {
 
 
  if (favouriteColor=='yes' || favouriteColor=='y') {
-//     console.log("you\'re right, red is my favourite color");
 alert("you're right, red is my favourite color");
 score++;
  }else if (favouriteColor=='no' || favouriteColor=='n'){
     
-//     console.log('wrong answer');
 alert('wrong answer');} 
 else {
     alert('please only answer yes/y or no/n');
@@ -103,7 +97,7 @@ else {
 }
 question4();
 
-q5.........
+
 function question5(){
 let age=prompt('Do you think I\'m 22 years old?');
 console.log(age);
@@ -114,12 +108,12 @@ while (!age) {
 age=age.toLowerCase();
 
  if (age=='yes' || age=='y' ) {
-//     console.log("I\'m 22 years old");
+
 alert("you're right, I\'m 22 years old");
 score++;
  }else if  (age=='no' || age=='n' ){
     
-//     console.log('wrong answer');
+
 alert('wrong answer');}
 else {
     alert('please only answer yes/y or no/n');
@@ -127,16 +121,14 @@ else {
 }
 question5();
 
-//............
 let Username=prompt('What\s your name ');
 while (!Username) {
     Username=prompt('please answer the question');
   }
-document.write('nice to meet you ' + Username); 
+document.write('Nice to meet you ' + Username); 
 
 
 
-                 //Q2 lab04......
 function question6(){              
   let count=0;
 while(count<4){
@@ -161,8 +153,8 @@ if(userNum && (userNum>9 && userNum<31)){
                  
 }
 question6();
+ 
 
-               //Q3.............
         function question7(){   
            let counter=0;
             let country=['thailand','peru','greece','italy'];
@@ -198,12 +190,12 @@ question6();
         
           
            
-               //Q4..........
-            document.write('<br> YOU ANSWERED '+ score +' CORRECT ANSWERS OUT OF 7 <br>'); 
-        }
+           }
             question7();
           
-          
+
+            document.write('<br> YOU ANSWERED '+ score +' CORRECT ANSWERS OUT OF 7 <br><br>'); 
+      
           
           
           
